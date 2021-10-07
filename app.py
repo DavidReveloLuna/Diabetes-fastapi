@@ -24,7 +24,7 @@ def get_text(text: str):
 # Expose the prediction functionality, make a prediction from the passed
 #  JSON data and return the predicted Bank Note with the confidence
 @app.post('/predict')
-def predict_banknote(data:Diabetesdata):
+def predict_diabetes(data:Diabetesdata):
     
     data = data.dict()
     
